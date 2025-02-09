@@ -184,7 +184,7 @@ body {
 .video-item {
   flex: 1; /* 每个视频项平分父容器空间 */
   text-align: center; /* 文本居中 */
-  max-width: 30%; /* 限制每个视频项的最大宽度 */
+  max-width: 35%; /* 限制每个视频项的最大宽度 */
   margin: auto; /* 确保视频项在行内居中 */
 }
 
