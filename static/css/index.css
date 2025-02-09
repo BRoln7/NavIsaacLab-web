@@ -184,12 +184,12 @@ body {
 .video-item {
   flex: 1; /* 每个视频项平分父容器空间 */
   text-align: center; /* 文本居中 */
-  max-width: 35%; /* 限制每个视频项的最大宽度 */
+  max-width: 30%; /* 限制每个视频项的最大宽度 */
   margin: auto; /* 确保视频项在行内居中 */
 }
 
 .video-item video {
-  width: 75%; /* 视频宽度占满容器 */
+  width: 80%; /* 视频宽度占满容器 */
   height: auto; /* 自动调整高度 */
   border-radius: 8px; /* 可选：添加圆角 */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* 可选：添加阴影 */
