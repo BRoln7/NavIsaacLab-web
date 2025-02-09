@@ -178,13 +178,13 @@ body {
 .video-row {
   display: flex;
   justify-content: space-between;
-  gap: 15px; /* 视频之间的间隔 */
+  gap: 10px; /* 视频之间的间隔 */
 }
 
 .video-item {
   flex: 1; /* 每个视频项平分父容器空间 */
   text-align: center; /* 文本居中 */
-  max-width: 32%; /* 限制每个视频项的最大宽度，调整为三分之一 */
+  max-width: 35%; /* 限制每个视频项的最大宽度，调整为三分之一 */
   margin: auto; /* 确保视频项在行内居中 */
 }
 
