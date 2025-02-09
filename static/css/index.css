@@ -172,13 +172,13 @@ body {
 .video-gallery {
   display: flex;
   flex-direction: column;
-  gap: 20px; /* 行与行之间的间隔 */
+  gap: 10px; /* 行与行之间的间隔 */
 }
 
 .video-row {
   display: flex;
   justify-content: space-between;
-  gap: 10px; /* 视频之间的间隔 */
+  gap: 5px; /* 视频之间的间隔 */
 }
 
 .video-item {
