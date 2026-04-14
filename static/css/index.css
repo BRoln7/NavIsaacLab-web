@@ -177,15 +177,15 @@ body {
 
 .video-row {
   display: flex;
-  justify-content: space-between;
-  gap: 20px; /* 视频之间的间隔 */
+  justify-content: center; /* 将 space-between 改为 center，让两个视频靠拢并居中 */
+  gap: 40px; /* 现在完全由 gap 来控制两个视频之间的距离，觉得太宽或太窄可以改这个数字 */
 }
 
 .video-item {
-  flex: 1; /* 每个视频项平分父容器空间 */
-  text-align: center; /* 文本居中 */
-  max-width: 35%; /* 限制每个视频项的最大宽度，调整为二分之一 */
-  margin: auto; /* 确保视频项在行内居中 */
+  flex: 1; 
+  text-align: center; 
+  max-width: 35%; 
+  /* margin: auto;  <-- 【重要】删掉这行，否则它会自动抢占剩余空间把视频往两边推 */
 }
 
 .video-item video {
