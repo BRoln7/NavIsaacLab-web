@@ -35,7 +35,7 @@
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
   <link rel="stylesheet"
   href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="stylesheet" href="static/css/index.css?v=venue-center">
+  <link rel="stylesheet" href="static/css/index.css?v=framework">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -79,12 +79,12 @@
                     <span class="author-block"><sup>1</sup>Southern University of Science and Technology</span><br>
                     <span class="author-block"><sup>2</sup>National University of Singapore</span><br>
                     <span class="author-block"><sup>3</sup>Pengcheng Laboratory</span>
-                    <div class="publication-venue has-text-centered">IEEE Transactions on Automation Science and Engineering (T-ASE)</div>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
+                  <div class="is-size-4 publication-venue has-text-centered" style="margin-top: 15px; text-align: center; width: 100%;">
+                    <strong>IEEE Transactions on Automation Science and Engineering (T-ASE)</strong>
+                  </div>
 
                       <div class="column has-text-centered">
                         <div class="publication-links">
@@ -171,6 +171,13 @@
         </div>
       </div>
     </div>
+
+    <figure class="framework-figure">
+      <img src="static/images/framework.png" alt="Overview of the NavIsaacLab framework.">
+      <figcaption class="figure-caption">
+        The framework of the proposed NavIsaacLab platform. Prior to simulation, a data-driven pedestrian model is pre-trained, scene assets are curated, and the number and tasks of pedestrians within the simulation are stochastically configured. During the simulation, the robot and pedestrians leverage the Isaac Lab framework to perform parallel operations across multiple scenes, acquiring real-time feedback. Finally, multi-modal data is collected over multiple iterations, facilitating online policy learning or the comprehensive evaluation of existing navigation algorithms.
+      </figcaption>
+    </figure>
   </div>
 </section>
 <!-- End paper abstract -->
@@ -242,6 +249,17 @@
               The scene from the perspective of a robot.
             </h2>
           </div>
+
+          <div class="video-item">
+            <video poster="" controls>
+              <source src="static/videos/side_view.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h2 class="subtitle has-text-centered">
+              Retargeting animations onto textured characters for visual navigation policy training.
+            </h2>
+          </div>
+
         </div>
       </div>
     </div>
