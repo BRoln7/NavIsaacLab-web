@@ -58,7 +58,7 @@ body {
 .publication-venue {
     color: #555;
     font-family: 'Castoro', serif;
-    font-style: italic;
+    font-style: normal;
     font-weight: normal;
     display: block;
     width: fit-content;
