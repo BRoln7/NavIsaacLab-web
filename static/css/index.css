@@ -57,8 +57,14 @@ body {
 
 .publication-venue {
     color: #555;
+    font-family: 'Castoro', serif;
+    font-style: italic;
+    font-weight: normal;
+    display: block;
     width: fit-content;
-    font-weight: bold;
+    max-width: 100%;
+    margin: 0.6em auto 0;
+    text-align: center;
 }
 
 .publication-awards {
