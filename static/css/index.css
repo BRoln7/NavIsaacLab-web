@@ -199,14 +199,26 @@ body {
 }
 
 .video-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  column-gap: 16px;
-  row-gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 2.25rem;
 }
 
 .video-row {
-  display: contents;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 16px;
+  row-gap: 8px;
+}
+
+.video-row-title {
+  grid-column: 1 / -1;
+  font-family: 'Google Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 0 0.35rem;
+  color: #363636;
 }
 
 .video-item {
@@ -228,7 +240,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .video-gallery {
+  .video-row {
     grid-template-columns: 1fr;
   }
 }
